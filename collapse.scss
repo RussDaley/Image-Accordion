@@ -1,0 +1,51 @@
+.card {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	border: none;
+	border-radius: 0px;
+	a.collapsed {  //added this because once all of them were closed, the last one closed still have an underline.
+		text-decoration: none;
+	}
+	a {
+		color: white;
+	}
+	.card-header {
+		background-color: transparent;
+		border: none;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+		background: -moz-linear-gradient(top, rgba(0,0,0,0) 80%, rgba(0,0,0,0.5) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(0,0,0,0) 80%,rgba(0,0,0,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(0,0,0,0) 80%,rgba(0,0,0,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+	}
+	.collapsed .card-header:hover {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+		background: -moz-linear-gradient(top, rgba(0,0,0,0) 80%, rgba(0,0,0, 1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(0,0,0,0) 80%,rgba(0,0,0, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(0,0,0,0) 80%,rgba(0,0,0, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+	}
+	.card-block {
+		background-color: rgba(1, 1, 1, 0.5);
+	}
+}
+#card1 {
+	background-image: url('file:///C:/Users/rdaley/Google%20Drive/Coding/Practice/messing-with-bootstrap/collapse(accordion)/waterfall.jpg');
+}
+#card2 {
+	background-image: url('file:///C:/Users/rdaley/Google%20Drive/Coding/Practice/messing-with-bootstrap/collapse(accordion)/ocean.jpg');
+}
+#card3 {
+	background-image: url('file:///C:/Users/rdaley/Google%20Drive/Coding/Practice/messing-with-bootstrap/collapse(accordion)/night-city-earth-sky-stars-clo.jpg');
+}
+#card4 {
+	background-image: url('file:///C:/Users/rdaley/Google%20Drive/Coding/Practice/messing-with-bootstrap/collapse(accordion)/sunset.jpg');
+}
+#card5 {
+	background-image: url('file:///C:/Users/rdaley/Google%20Drive/Coding/Practice/messing-with-bootstrap/collapse(accordion)/amazing-night-sky.jpg');
+}
+#card6 {
+	background-image: url('file:///C:/Users/rdaley/Google%20Drive/Coding/Practice/messing-with-bootstrap/collapse(accordion)/forest-landscapes-fun-barn-coo.jpg');
+}
